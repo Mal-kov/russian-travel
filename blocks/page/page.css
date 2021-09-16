@@ -1,0 +1,14 @@
+.page {
+  margin: 0;
+  padding: 0;
+  background-color: #2A2C2F;
+  color: #fff;
+  /* min-width: 1280px; */
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  /* max-width: 1600px; */
+  /* margin: 0 auto; */
+  padding: 0;
+
+  font-family: 'Inter', 'Arial', sans-serif;
+}

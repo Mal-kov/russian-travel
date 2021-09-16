@@ -1,0 +1,11 @@
+.places__place {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: repeat( 2, max-content);
+  gap: 40px;
+  grid-template-areas:
+  "title url"
+  "foto text";
+
+}
