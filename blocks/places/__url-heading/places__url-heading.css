@@ -8,3 +8,15 @@
   color: #aaa;
   align-self: center;
 }
+
+@media screen and (max-width: 1020px) {
+  .places__url-heading {
+    align-self: start;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .places__url-heading {
+    padding: 0 16px;
+  }
+}

@@ -1,12 +1,18 @@
 .cover {
   padding: 0 5%;
-  background-image: url('../../images/cover__background.jpg');
-  background-size: cover;
-  max-width: 1184px;
-  /* max-height: 740px; */
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-
 }
+
+@media screen and (max-width: 1290px) {
+  .cover{
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cover {
+    padding: 0;
+  }
+}
+
+
+

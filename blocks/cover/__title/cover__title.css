@@ -2,5 +2,23 @@
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
-  margin: auto;
+  max-width: 560px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1020px) {
+  .cover__title {
+    min-width: 560px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    min-width: 250px;
+  }
 }

@@ -1,4 +1,9 @@
 .header__logo-img {
- /* background-color: #fff; */
+  max-width: 176px;
+}
 
+@media screen and (max-width: 760px) {
+  .header__logo-img {
+    max-width: 142px;
+  }
 }
