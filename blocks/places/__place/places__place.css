@@ -1,13 +1,35 @@
 .places__place {
-  padding-top: 80px;
+  padding-top: 86px;
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-template-rows: repeat( 2, max-content);
-  gap: 40px;
+  gap: 41px;
   grid-template-areas:
   "title url"
   "foto text";
 }
+
+@media screen and (max-width: 1200px) {
+  .places__place {
+    padding-top: 75px;
+  }
+  /* .places__place:first-child {
+    padding-top: 0;
+  } */
+
+}
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    padding-top: 58px;
+    gap: 44px 28px;
+  }
+  .places__place:first-child {
+    padding-top: 58px;
+    /* gap: 44px 28px; */
+  }
+}
+
 @media screen and (max-width: 760px) {
   .places__place {
     padding-top: 50px;

@@ -1,5 +1,6 @@
 .header__lang {
   display: flex;
   align-items: center;
-
+  list-style-type: none;
+  padding: 0;
 }

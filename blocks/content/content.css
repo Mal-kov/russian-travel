@@ -1,0 +1,18 @@
+.content {
+  max-width: 1280px;
+}
+@media screen and (max-width: 1200) {
+  .content {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .content {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .content {
+    max-width: 320px;
+  }
+}

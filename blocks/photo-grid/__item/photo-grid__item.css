@@ -1,4 +1,11 @@
 .photo-grid__item {
   display: block;
-  max-width: 100%;
+  min-width: 100%;
+  object-fit: fill;
+}
+
+@media screen and (max-width: 1200px) {
+  .photo-grid__item {
+    min-height: 100%;
+  }
 }

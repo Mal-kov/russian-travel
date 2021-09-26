@@ -1,7 +1,8 @@
 .places__link {
+  grid-area: url;
   padding: 0;
   margin: 0;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 400;
   text-decoration: underline;
@@ -11,6 +12,6 @@
 
 @media screen and (max-width: 760px) {
   .places__link {
-    padding: 0 16px;
+    padding-left: 16px;
   }
 }

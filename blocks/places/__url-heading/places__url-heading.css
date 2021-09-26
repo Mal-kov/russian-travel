@@ -1,22 +1,25 @@
 .places__url-heading {
-  padding: 0;
+  grid-area: url;
+  padding: 0 0 34px 0;
   margin: 0;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 170%;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaa;
-  align-self: center;
+  align-self: end;
 }
 
 @media screen and (max-width: 1020px) {
   .places__url-heading {
-    align-self: start;
+    /* align-self: утв; */
+    line-height: 12px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .places__url-heading {
-    padding: 0 16px;
+    /* padding: 0 16px; */
+    padding-left: 16px;
   }
 }
