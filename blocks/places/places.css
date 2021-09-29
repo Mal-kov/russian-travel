@@ -9,11 +9,11 @@
 }
 @media screen and (max-width: 1020px) {
   .places {
-    padding: 16px 24px 61px;
+    padding: 34px 24px 90px;
   }
 }
 @media screen and (max-width: 760px) {
   .places {
-    padding: 12px 0 66px;
+    padding: 12px 0 93px;
   }
 }

@@ -1,5 +1,5 @@
 .places__place {
-  padding-top: 86px;
+  padding-top: 80px;
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-template-rows: repeat( 2, max-content);
@@ -11,7 +11,9 @@
 
 @media screen and (max-width: 1200px) {
   .places__place {
-    padding-top: 75px;
+    /* padding-top: 75px; */
+    gap: 48px 30px;
+
   }
   /* .places__place:first-child {
     padding-top: 0;
@@ -19,15 +21,14 @@
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1020px) {
   .places__place {
-    padding-top: 58px;
-    gap: 44px 28px;
+    padding-top: 73px;
+    gap: 47px 28px;
   }
-  .places__place:first-child {
+  /* .places__place:first-child {
     padding-top: 58px;
-    /* gap: 44px 28px; */
-  }
+  } */
 }
 
 @media screen and (max-width: 760px) {

@@ -1,16 +1,16 @@
 .photo-grid {
-  padding-top: 92px;
+  padding-top: 93px;
 }
 
 @media screen and (max-width: 1200px) {
   .photo-grid {
-    padding-top: 88px;
+    padding-top: 93px;
   }
 }
 
 @media screen and (max-width: 1020px) {
   .photo-grid {
-    /* padding-top: 80px; */
+    padding-top: 89px;
   }
 }
 @media screen and (max-width: 760px) {
