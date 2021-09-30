@@ -2,12 +2,6 @@
   padding-top: 93px;
 }
 
-@media screen and (max-width: 1200px) {
-  .photo-grid {
-    padding-top: 93px;
-  }
-}
-
 @media screen and (max-width: 1020px) {
   .photo-grid {
     padding-top: 89px;
